@@ -1,6 +1,19 @@
 # NEMU
 
 NEMU(NJU Emulator) is a simple but complete full-system emulator designed for teaching purpose.
+## Original Project and Attribution
+
+This repository is based on the LA32R NEMU project originally hosted at:
+
+https://gitee.com/wwt_panache/la32r-nemu
+
+The original NEMU implementation was developed by its respective authors.
+
+### Research Modifications
+
+This repository includes modifications to the original implementation for research on LoongArch CNN acceleration, including custom instruction decoding, execution logic, and register-related functionality.
+
+The original authors retain their respective rights to the underlying implementation. The modifications are documented separately to distinguish them from the original code.
 Currently it supports x86, mips32, and riscv32.
 To build programs run above NEMU, refer to the [AM project](https://github.com/NJU-ProjectN/abstract-machine).
 
