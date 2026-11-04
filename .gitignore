@@ -1,0 +1,26 @@
+*.*
+*
+!*/
+!Makefile
+!*.mk
+!*.[cSh]
+!.gitignore
+!README.md
+!scripts/runall.sh
+!Kconfig
+include/config
+include/generated
+
+# Local build outputs
+build/
+*.o
+*.a
+*.so
+*.log
+*.vcd
+*.bin
+*.elf
+
+# Python temporary files
+__pycache__/
+.venv/
